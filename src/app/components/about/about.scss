@@ -1,0 +1,26 @@
+.about-bg {
+    background: url('../../../assets/about.jpg');
+    background-size: contain;
+    min-height: 100vh;
+}
+
+.about-card {
+    max-width: 800px;
+    background: rgba(79, 78, 78, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(36, 37, 38, 0.15);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    border: 1px solid rgba(45, 42, 42, 0.18);
+    color: rgb(246, 241, 241);
+}
+
+.about-name {
+    color: #099ea3;
+}
+
+.about-link {
+    color: #0d6efd;
+    text-decoration: underline;
+    cursor: pointer;
+}
