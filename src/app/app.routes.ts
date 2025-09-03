@@ -5,6 +5,7 @@ import { Contact } from './components/contact/contact';
 import { Education } from './components/education/education';
 import { Experience } from './components/experience/experience';
 import { PROJECTS } from './components/projects/projects';
+import { WeatherComponent } from './components/weather/weather';
 
 export const routes: Routes = [
   { path: 'home', component: Home },
@@ -12,5 +13,6 @@ export const routes: Routes = [
   { path: 'contact', component: Contact },
   { path: 'education', component: Education },
   { path: 'experience', component: Experience },
-  { path: 'projects', component: PROJECTS }
+  { path: 'projects', component: PROJECTS },
+  { path: 'weather', component: WeatherComponent }
 ];

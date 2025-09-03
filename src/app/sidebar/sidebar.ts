@@ -31,7 +31,11 @@ export class Sidebar {
     this.router.navigate(['experience']);
   }
 
-  navigateToProjects(){
+  navigateToProjects() {
     this.router.navigate(['projects']);
+  }
+
+  navigateToWeather() {
+    this.router.navigate(['weather']);
   }
 }
